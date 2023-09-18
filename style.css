@@ -1,0 +1,55 @@
+html{
+
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1{
+
+    color:yellowgreen;
+    padding-bottom: 1em;
+
+}
+
+#textOptionA, #textOptionB {
+
+    font-size: 1em;
+
+}
+
+#dragabbleText{
+
+    position:relative;
+    margin: 0 0 2em;
+    overflow: hidden;
+
+}
+
+#dragabbleText::before{
+
+    position:absolute;
+    content: '1UKM0E77V>3XJ';
+    height:1em;
+    width:10%;
+    background-color:yellowgreen;
+    z-index:-1;
+
+}
+
+#inputBox{
+
+    width: 25%;
+    height: 1em;
+
+}
+
+#dropArea{
+
+    width: 25%;
+    height: 1em;
+    background-color:yellowgreen;
+    display: inline-block;
+
+}
